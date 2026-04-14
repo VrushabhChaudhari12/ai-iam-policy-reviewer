@@ -1,1 +1,11 @@
-openai
+# Core dependency - OpenAI-compatible client (used for Ollama)
+openai>=1.14.0
+
+# Python 3.11+ ships with all other stdlib modules used (re, json, logging,
+# argparse, datetime, pathlib) - no extra runtime deps needed.
+
+# --- Optional / Development ---
+# Uncomment to enable linting and type-checking during development:
+# ruff>=0.4.0
+# mypy>=1.9.0
+# pytest>=8.0.0
